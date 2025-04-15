@@ -59,8 +59,11 @@ function eliminarNota(titulo) {
   }
 }
 
-// Ejecución de ejemplo
+//Ejemplos
 agregarNota('Compras', 'Comprar leche y pan.');
-listarNotas();
 eliminarNota('Compras');
+listarNotas();
 agregarNota('Tarea', 'Pagina 5 y 6 del libro de ingles');
+agregarNota('Gym', 'Mi mensualidad del gym se vence el 30 de abril.');
+agregarNota('Doctor', 'Cita en el doctor mañana 10 am');
+listarNotas();
